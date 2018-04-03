@@ -27,7 +27,7 @@ class Tue1Controller {
 
     @RequestMapping(method = GET, path = "/")
     public String root() {
-        return "Spring Boot REST service running: Served by " + getClass().getName();
+        return "Spring Boot XXXX REST service running: Served by " + getClass().getName();
     }
 
     @RequestMapping(method = GET, path = "hello/{name}")
